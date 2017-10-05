@@ -6,27 +6,51 @@
         <link href="myStyle.css" rel="stylesheet" type="text/css"/>
         <title>My First BootStrap</title>
     </head>
-    
-<body>
-    <script src="http://ajax.googleeapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <body>
+<!--NAVBAR START-->
     <div class="navbar navbar-inverse navbar-static-top">
     <div class="container">
         <a href="#" class="navbar-brand">WebberBridge Sports Hall</a>
         <!--this is where the collapse button goes-->
-        <button class="navbar toggle" data-toggle="collapse" data-target="navHeaderCollapse">
-        <span class="icon-bar"></span>
+        <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+            <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
         <div class="collapse navbar-collapse navHeaderCollapse">
         <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Sports <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+              <li><a hrref="#">Football</a></li>
+              <li><a hrref="#">Netball</a></li>
+              <li><a hrref="#">Hockey</a></li>
+              <li><a hrref="#">Badminton</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Bookings</a></li>
+            <li><a href="#">Contact</a></li>
             </ul>
-        </div>
+          </div>
         </div>
     </div>
-    <script src="http://ajax.googleapis.com/ajax/libs/1.11.1/jquery.min.js"></script>
+<!--NAVBAR END-->
+    
+<!--JUMBOTRON START-->
+        
+<!--JUMBOTRON END-->
+        
+        
+<!--FOOTER START-->
+    <div class="navbar navbar-default navbar-fixed-bottom">
+        <div class="container">
+            <p class="navbar-text">Site built by Elise Plant</p>
+            
+        </div>
+        </div>
+<!--FOOTER END-->
+         <script src="http://ajax.googleapis.com/ajax/libs/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
 </body>
 </html>
